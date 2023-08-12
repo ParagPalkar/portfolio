@@ -8,8 +8,14 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 
-/*=============== SERVICES MODAL ===============*/
-
+/*=============== TEXT ANIMATION ===============*/
+// var typed = new Typed(".auto-type",
+//     {
+//         strings: ["think","create","develop","code","design","speak Japanese"],
+//         typeSpeed: 150,
+//         backSpeed: 150,
+//         loop:true
+//     })
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 let mixerPortfolio = mixitup('.work__container', {
