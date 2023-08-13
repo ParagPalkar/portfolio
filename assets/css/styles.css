@@ -290,7 +290,7 @@ body.light-theme{
 .home__container{
   position: relative;
   row-gap: 4.5rem;
-  /*padding-top: 2rem;*/
+  padding-top: 7rem;
 }
 
 .home__data{
@@ -336,7 +336,7 @@ body.light-theme{
 }
 
 .home__social{
-  bottom: 10rem;
+  bottom: 8rem;
   left: 0;
   display: grid;
   row-gap: .5rem;
@@ -377,7 +377,9 @@ body.light-theme{
   transform: rotate(-90deg);
 }
 
-
+#home{
+  height: 90vh;
+}
 
 /*=============== BUTTONS ===============*/
 .button{
@@ -407,6 +409,12 @@ body.light-theme{
 }
 
 .about__img{
+  grid-column-start: 1/2;
+  width: 220px;
+  border-radius: 1.5rem;
+  justify-self: center;
+}
+.himg{
   width: 220px;
   border-radius: 1.5rem;
   justify-self: center;
@@ -752,6 +760,9 @@ body.light-theme{
     padding: 1rem 1.5rem;
   }
 
+  .home__container{
+    padding-top: 5rem;
+  }
   .home__buttons{
     flex-direction: column;
   }
