@@ -412,12 +412,6 @@ body.light-theme{
   grid-column-start: 1/2;
   width: 220px;
   border-radius: 1.5rem;
-  justify-self: center;
-}
-.himg{
-  width: 220px;
-  border-radius: 1.5rem;
-  justify-self: center;
 }
 
 .about__data{
